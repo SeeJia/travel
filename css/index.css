@@ -54,7 +54,7 @@ h5{
 }
 
 #home {
-    background-image: url('../images/travel_home.png'); /* 替换为你的图片路径 */
+    background-image: url('https://seejia.github.io/travel/images/travel_home.png'); /* 替换为你的图片路径 */
     background-size: cover; /* 让图片覆盖整个区域 */
     background-position: center; /* 让图片居中显示 */
     background-repeat: no-repeat; /* 防止图片重复 */
