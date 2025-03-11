@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800');
+
+:root{
+    --dark-blue : #007BBB;
+    --blue : #009EF0;
+    --light-blue: #8EC0E6;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --white : #FFFFFF;
+    --black : #021C29;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 50px;
+    transition: background-color 0.3s ease-in-out; /* 过渡动画 */
+    background-color: transparent; /* 默认透明 */
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* 滚动后背景变黑 */
+}
+
+.navbar-brand{
+    color: var(--white);
+}
+
+.nav-link{
+    color: var(--white);
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.cta-btn {
+    background-color: var(--blue);
+    box-shadow: var(--box-shadow);
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: var(--white);
+}
+
+#home {
+    background-image: url('/images/travel_home.png'); /* 替换为你的图片路径 */
+    background-size: cover; /* 让图片覆盖整个区域 */
+    background-position: center; /* 让图片居中显示 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    height: 500px; /* 让 section 充满整个视口高度，可根据需要调整 */
+    display: flex;
+    align-items: center; /* 让内容垂直居中 */
+    justify-content: center; /* 让内容水平居中 */
+    text-align: center;
+    color: white; /* 确保文本在深色背景上可见 */
+}
+
+.home-title{
+    font-weight: bold;
+}
+
+.span-text{
+    color: var(--dark-blue);
+}
+
+.price{
+    position: absolute;
+    top: 30px;  
+    right: 40px;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+.location{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bi-geo-alt-fill{
+    color: var(--blue);
+}
+
+.card-adv {
+    background-color: var(--light-blue); 
+    height: 400px;
+}
+
+.about-title{
+    color: var(--white);
+}
+
+.card{
+    box-shadow: var(--box-shadow);
+}
+
+.review_img{
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.section_blue{
+    background-color: var(--dark-blue);
+}
+
+.footer-link{
+    color: var(--white);
+}
+
+.copyright{
+    color: var(--white);
+}
